@@ -30,8 +30,6 @@ function setup() {
 function draw() {
   background(220);
 
-  text("up arrow - Brushing",200,200)
-
   if(keyDown("UP_ARROW")){
     changeAnimation(brush,200,0,0)
   }
@@ -64,6 +62,7 @@ function draw() {
 
 
   drawSprites();
+   text("up arrow - Brushing",200,200)
 }
 
 function changeAnimation(obj1,obj2,obj3,obj4){
