@@ -62,6 +62,7 @@ function draw() {
 
 
   drawSprites();
+  stoke("red")
    text("up arrow - Brushing",200,200)
 }
 
